@@ -1,0 +1,35 @@
+jug1=4
+jug2=3
+print("capacities =")
+print(jug1,jug2)
+print("need to fill jug1 to 2 litre ")
+while(jug1 != 2):
+   r = int(input("enter value to proceed :"))
+   if(r==1):
+    jug1-=jug2
+    print("case1")
+    print(jug1,jug2)
+   elif(r==2): 
+    jug2=0  
+    print("case2")
+    print(jug1,jug2)
+   elif(r==3):
+    jug2=jug1
+    print("case3")
+    print(jug1,jug2)
+   elif(r==4):
+    jug1=0
+    print("case4")
+    print(jug1,jug2)
+   elif(r==5):
+    jug1=4
+    print("case5")
+    print(jug1,jug2)
+   elif(r==6):
+    jug1=jug1-(3-jug2)
+    print("case6")
+    print(jug1,jug2)
+    print("jug1 =")
+    print(jug1)
+    
+   
